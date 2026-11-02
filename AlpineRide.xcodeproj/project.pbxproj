@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1897576E492673D6599CCD1F /* RideMotionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E63BC5A624CA9E5BA769B5 /* RideMotionTests.swift */; };
+		C3EA69C4552EDEF9740A0BB1 /* RideWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8116CA434464B8AE4CADDA23 /* RideWorld.swift */; };
+		EB58E8F22812F4CDFD04C6D3 /* AlpineRideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2975727344511BD769A17563 /* AlpineRideApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CC6CAA9066F7496FCD69F35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9BB773B06866623C001B254 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6D7E26B4CDC95451C809E5E;
+			remoteInfo = AlpineRide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2975727344511BD769A17563 /* AlpineRideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlpineRideApp.swift; sourceTree = "<group>"; };
+		39BFFC795D1E239723106F1C /* AlpineRideTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = AlpineRideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E63BC5A624CA9E5BA769B5 /* RideMotionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideMotionTests.swift; sourceTree = "<group>"; };
+		8116CA434464B8AE4CADDA23 /* RideWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideWorld.swift; sourceTree = "<group>"; };
+		BC6CAEE1C4EF418D4B730FAE /* AlpineRide.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = AlpineRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D537EB0A3501F0D9383E7770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		16936B147FBB57A6720122AB /* AlpineRideTests */ = {
+			isa = PBXGroup;
+			children = (
+				39E63BC5A624CA9E5BA769B5 /* RideMotionTests.swift */,
+			);
+			path = AlpineRideTests;
+			sourceTree = "<group>";
+		};
+		380CEB126475561835C140F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC6CAEE1C4EF418D4B730FAE /* AlpineRide.app */,
+				39BFFC795D1E239723106F1C /* AlpineRideTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5CCF58FF078A0883DBCAB9F /* AlpineRide */ = {
+			isa = PBXGroup;
+			children = (
+				2975727344511BD769A17563 /* AlpineRideApp.swift */,
+				D537EB0A3501F0D9383E7770 /* Info.plist */,
+				8116CA434464B8AE4CADDA23 /* RideWorld.swift */,
+			);
+			path = AlpineRide;
+			sourceTree = "<group>";
+		};
+		BD1A39C3C3085159286E9669 = {
+			isa = PBXGroup;
+			children = (
+				A5CCF58FF078A0883DBCAB9F /* AlpineRide */,
+				16936B147FBB57A6720122AB /* AlpineRideTests */,
+				380CEB126475561835C140F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4BF8FB89FD5AC73C5A793C4 /* AlpineRideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4CDB36C3ACC9C970F83099 /* Build configuration list for PBXNativeTarget "AlpineRideTests" */;
+			buildPhases = (
+				FA987392889264DB5D96FA86 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB8C0343E768E5B58C5CF80A /* PBXTargetDependency */,
+			);
+			name = AlpineRideTests;
+			packageProductDependencies = (
+			);
+			productName = AlpineRideTests;
+			productReference = 39BFFC795D1E239723106F1C /* AlpineRideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6D7E26B4CDC95451C809E5E /* AlpineRide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9612CBF332ECE632972BED86 /* Build configuration list for PBXNativeTarget "AlpineRide" */;
+			buildPhases = (
+				64E9DB2C930C9E896AD2AB11 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlpineRide;
+			packageProductDependencies = (
+			);
+			productName = AlpineRide;
+			productReference = BC6CAEE1C4EF418D4B730FAE /* AlpineRide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9BB773B06866623C001B254 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C4BF8FB89FD5AC73C5A793C4 = {
+						ProvisioningStyle = Automatic;
+					};
+					D6D7E26B4CDC95451C809E5E = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 096244BF7F909D69DFA5245F /* Build configuration list for PBXProject "AlpineRide" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = BD1A39C3C3085159286E9669;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 380CEB126475561835C140F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6D7E26B4CDC95451C809E5E /* AlpineRide */,
+				C4BF8FB89FD5AC73C5A793C4 /* AlpineRideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64E9DB2C930C9E896AD2AB11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB58E8F22812F4CDFD04C6D3 /* AlpineRideApp.swift in Sources */,
+				C3EA69C4552EDEF9740A0BB1 /* RideWorld.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA987392889264DB5D96FA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1897576E492673D6599CCD1F /* RideMotionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB8C0343E768E5B58C5CF80A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6D7E26B4CDC95451C809E5E /* AlpineRide */;
+			targetProxy = 6CC6CAA9066F7496FCD69F35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		182BD9BA914DBA0647C2DED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AlpineRide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.alpineride.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1E3CBA6082D8A453AD7A10B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		5EEDAF6A76CC78DA3006BB43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		A8D28635CA63FFB75F314DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.alpineride.app.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlpineRide.app/AlpineRide";
+			};
+			name = Release;
+		};
+		EEE39CDB61D23CEFCC6D4AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.alpineride.app.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlpineRide.app/AlpineRide";
+			};
+			name = Debug;
+		};
+		F910FD9FCB9AA5EE6928EFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AlpineRide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.alpineride.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		096244BF7F909D69DFA5245F /* Build configuration list for PBXProject "AlpineRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEDAF6A76CC78DA3006BB43 /* Debug */,
+				1E3CBA6082D8A453AD7A10B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9612CBF332ECE632972BED86 /* Build configuration list for PBXNativeTarget "AlpineRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F910FD9FCB9AA5EE6928EFAE /* Debug */,
+				182BD9BA914DBA0647C2DED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EB4CDB36C3ACC9C970F83099 /* Build configuration list for PBXNativeTarget "AlpineRideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE39CDB61D23CEFCC6D4AE8 /* Debug */,
+				A8D28635CA63FFB75F314DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9BB773B06866623C001B254 /* Project object */;
+}
